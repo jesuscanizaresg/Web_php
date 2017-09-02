@@ -1,0 +1,345 @@
+#pagina_general/*Contenedor principal de pagina index.php*/
+{
+	background-color: #FAFAFA;
+	margin: auto;
+	width: 95%;
+	height: 1500px;
+	font-family: sans-serif;
+	box-shadow: 2px 2px 5px #999;
+}
+
+#pagina_registro /*Contenedor principal pagina registro*/
+{
+	margin: auto;
+	width: 95%;
+	height: 700px;
+	font-family: sans-serif;  
+}
+#cuerpo_registro /*Contenedor para Bloques de registro*/
+{
+	width: 100%;
+	height: 100%;
+	background-color: #F7F7F7;
+}
+.bloque_registro /*Bloque para registrar usuario*/
+{
+	float: left;
+	margin-left: 37%;
+	margin-top: 3%;
+}
+#pagina_pag_aux /*Contenedor principal de Páginas Auxiliares que muestran de manera auto via PHP Rutas y Noticias*/
+{
+	margin: auto;
+	width: 95%;
+	height: 700px;
+	font-family: sans-serif;
+	margin: auto;
+
+}
+#bloque_pag_aux /*Formato para bloques de pagina Auxiliar*/
+{
+	float: left;
+	width: 100%;
+	height: 600px;
+	margin-left: 8px;
+	margin-top: 70px;
+}
+.titulo_pag_aux /*Formato clase titulo, para'paginas auxiliares*/
+{
+	text-transform: uppercase;/*Cualquier texto en mayusculas*/
+	font-weight: bold; /*negrita*/
+	font-size: 1.4em;
+	text-align: left;
+	color: black;
+}
+.fecha_pag_aux /*Formato para clase fecha, en páginas auxiliares*/
+{
+	font-weight: bold; /*negrita*/
+	font-size: 1.2em;
+	text-align: left;
+	color: black;
+}
+.descripcion_pag_aux /* Formato para textos y descripciones en ṕáginas Auxliares*/
+{
+	width: 98%;
+	font-size: 1.2em;
+	text-align: justify;
+	color:black;
+}
+.contenedor_imagen_pag_aux /*Formato de visualización de imagenes en páginas Auxiliares*/
+{
+	float:left;
+	margin:15px;
+	/*padding: 12px;*/
+	width: 47%;
+	height: 80%;
+}
+.imagen_pag_aux /*Formato imagen pag aux*/
+{
+	width: 100%;
+	height: 100%;
+}
+#cabecera /*Dvi contenedor de Cabecera de página*/
+{
+	float:left;
+	background-color: #E6E6E6;
+	width: 98.5%;
+	height: 210px;
+	margin-top: 10px;
+	margin-left: 8px;
+}
+
+#contenedor_logo_cabecera /*Formato para contenido y texto principal en contenedor cabecera ELIMIMAR SI COLOCAMOS LOGO!!!!!!!*/
+{
+	float: left;
+	width: 100%;
+	height: 85%;
+	text-align: center;
+}
+#logo
+{
+	
+	height: 100%; /* Formato para imagen de logotipo en cabecera*/
+
+}
+
+#menu_principal /*Formato para contenido y texto en contenedor menu principal de página*/
+{
+	float:left;
+	font-size:1.3em;
+	width: 100%;
+	height: 15%;
+}
+.boton_menuprincipal /*Formato para boton de menú individual*/
+{
+	float: left;
+	text-align: center;
+	width: 20%;
+	height: 98%;
+}
+
+a:link /*Formato para enlaces href*/
+{
+	color:black;
+	text-decoration:none; 
+}
+
+a:visited /*Formato para enlaces ya visitados href*/
+{
+	color:black;
+	text-decoration:none; 
+}
+
+.boton_menuprincipal:hover /*Elemento Hover para botones de menu*/
+{
+	background-color: #F6D8CE; /*Naranja en hover botones*/
+}
+.texto_azul
+{
+	color:#2E2EFE;
+}
+.texto_rojo
+{
+	color:#FA5858;
+}
+
+#barra_registro_usuario /*Contenedor y formato para barra registro de usuario en página principal*/
+{
+	float:left;
+	width: 98.5%;
+	height: 39px;
+	margin-top: 10px;
+	margin-left: 8px;
+	outline-color: #d7ddd8; /* outline linea exterior que no computa en margenes*/
+	outline-style: solid;
+	outline-width: 0.01px;
+}
+#bloque_derecha /*Contenedro principal de la parte derecha de la página. Contendrá noticias ordenadas por fecha reciente. PHP*/
+{
+	float: right;
+	outline-color: #d7ddd8; /* outline linea exterior que no computa en margenes*/
+	outline-style: solid;
+	outline-width: 0.01px;
+	margin-top: 10px;
+	background-color: #f1f1f1;
+	width: 20%;
+	height: 70%;
+	margin-right: 15px;
+}
+.noticia /*Contenedor para noticia individual. Incluida en contenedor bloque-derecha. Se mostrará con PHP*/
+{
+	padding: 5px 10px 10px 10px;
+	float:left;
+	text-align: justify;
+	overflow:hidden;
+    text-overflow:clip;
+	/*overflow: hidden; /*hidden para ocultar, scroll para bajar texto*/
+	width: 90%;
+	height: 30%;
+}
+.noticia:hover /*Efecto hover para noticia individual.*/
+{
+	background-color: #f7f4f4;
+}
+.titulo_noticia /*Contenedor y formato para titulo de noticia*/
+{
+	text-transform: uppercase;/* para obligar a que el texto vaya en mayusculas*/
+	font-weight: bold; /*negrita*/
+	font-size: 1.2em;
+	text-align: center;
+	color: black;
+}
+
+.fecha_noticia /*Formato para fecha de noticia.*/
+{
+	font-size: 1.15em;
+	text-align: center;
+	color: black;
+}
+.cuerpo_noticia /*Visualización de textos o descripciones de noticia*/
+{
+	font-size:1.1em;
+	color:black;
+}
+
+#bloque_izquierda /*Contenedor principal de parte izquierda de la página. Contendrá información de rutas mostradas auto con PHP*/
+{
+	float: left;
+	outline-color: #d7ddd8;
+	outline-style: solid;
+	outline-width: 0.01px;
+	margin-top: 10px;
+	background-color: #f1f1f1;
+	width: 20%;
+	height: 70%;
+	margin-left: 12px;
+	overflow:hidden;
+}
+.ruta
+{ 
+	padding: 5px 10px 10px 15px;
+	font-size: 0.95em;
+	float:left;
+	text-align: justify;
+	overflow: hidden; /*hidden para ocultar, scroll para bajar texto*/
+	width: 90%;
+	height: 30%;
+}
+.ruta:hover /*Efecto hover para ruta individual.*/
+{
+	background-color: #f7f4f4;
+}
+
+.imagen_perfil_ruta /*Visualización de imagen individual para perfil de ruta*/
+{
+	width: 99%;
+	height: 80%;
+}
+
+#central /*Contenedor principal para última noticia publicada.*/
+{
+	float: left;
+	margin-top: 10px;
+	background-color: #f4f9f5;
+	width: 56%;
+	height: 70%;
+	margin-left: 11px;
+	/*outline-color: grey;
+	outline-style: solid;
+	outline-width: 0.01px;*/
+}
+#noticia_central /*Contenedor para bloques correspondientes a contenedor central. De momento, se incluye un único bloque*/
+{
+	float: left;
+	width: 100%;
+	height: 80%;
+}
+.titulo_central /*Visualización para título de noticia central*/
+{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1.7em;
+	text-align: center;
+	color: black;
+	float: left;
+	margin: 15px;
+	width: 96%;
+	height: 11%;	
+}
+.fecha_central
+{
+	float: left;
+	height: 4%;
+	width: 100%;
+	text-align:center;
+	font-size: 1.2em;
+}
+.contenedor_imagen_central /*Contenedor para mini-imagenes resumen incluidas en noticia*/
+{
+	float: left;
+	margin:15px;
+	width: 29%;
+	height: 20%;
+}
+.imagen_noticia_central /*Visualización de mini-imagen en noticia central. ṔHP*/
+{
+	width: 100%;
+	height: 100%;
+}
+.texto_noticia_centro /* Visualización para texto o descripción de noticia dentral de página*/
+{
+    float: left;
+    width: 96%;
+    height: 50%;
+    margin:20px;
+    font-size:1.15em;
+    text-align: justify;
+	color:black;
+    overflow: auto;
+    text-overflow:clip;
+}
+#colaboradores_central /*Contenedor principal para colaboradores o sponsor de página*/
+{
+	float: left;
+	width: 100%;
+	height: 20%;
+}
+.colaboradores /*Contenedor individual para colaborador. Diseño inicial con tres contenedores, para tres sponsor.*/
+{
+	float: left;
+	width: 30.5%;
+	height: 87%;
+	margin-left: 19px;
+	margin-top: 15px;*/
+	outline-color: grey;
+	outline-style: solid;
+	outline-width: 0.01px;
+}
+.colaborador_logo /*Visualización de logotipo sponsor*/
+{
+	height: 100%;
+	width: 100%;
+}
+#abajo /*Contenedor principal de página, correspondiente a pie o parte de abajo. */
+{
+	float:left;
+	background-color: rgba(0,0,0,0.6);
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 98%;
+	height: 6%;
+}
+
+.bloque_abajo /*Visualización y conentido de información en pie o contenedor de parte abajo de pagina*/
+{
+	float:left;
+	width: 33%;
+}
+li /*Visualización delementos lista en página*/
+{
+	list-style: none;
+	font-size: 0.92em;
+	color:black;
+}
+
+/*Documento css para index.php. Versión 1*/
